@@ -3,7 +3,7 @@
 <header th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
     <!-- Static navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" th:href="@{/home}">LOGO</a>
+        <a class="navbar-brand" th:href="@{/home}"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" width="50" height="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,6 +18,10 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" th:href="@{/login}">Login</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/shop}">Shop</a>
                 </li>
 
             </ul>
